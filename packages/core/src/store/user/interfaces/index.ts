@@ -1,8 +1,8 @@
 export interface IUserState {
-  loading: boolean
-  error: boolean
-  isAuthenticated: boolean
-  data?: UserDTO
+  loading: boolean;
+  error: boolean;
+  isAuthenticated: boolean;
+  data?: UserDTO;
 }
 
 export interface UserDTO {
@@ -23,4 +23,3 @@ export interface UserDTO {
   edited: Date;
   url: string;
 }
-

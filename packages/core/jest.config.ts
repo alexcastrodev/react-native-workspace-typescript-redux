@@ -5,4 +5,4 @@ export default {
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
   // globalSetup: '<rootDir>/config/globalSetup.ts',
-}
+};
