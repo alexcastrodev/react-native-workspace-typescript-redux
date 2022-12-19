@@ -1,5 +1,7 @@
 # Modular Core
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f44849241bcc4ddea4fe3f0c73dfb234)](https://app.codacy.com/gh/AlexcastroDev/react-native-workspace-typescript-redux?utm_source=github.com&utm_medium=referral&utm_content=AlexcastroDev/react-native-workspace-typescript-redux&utm_campaign=Badge_Grade_Settings)
+
 ## Description Project
 
 Collab title: React Native with modular store and TDD
