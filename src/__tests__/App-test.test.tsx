@@ -10,12 +10,16 @@ import {render, screen} from '@testing-library/react-native';
 import {Layout} from '../components/Layout';
 
 import {useAppSelector, useAppDispatch} from '@company/core';
+import useThemeHelper from '../utils/useThemeHelper';
 
 jest.mock('@company/core');
+jest.mock('../utils/useThemeHelper');
 
 describe('App', () => {
   it('renders correctly', () => {
     (useAppDispatch as jest.Mock).mockReturnValue(() => {});
+    (useThemeHelper as jest.Mock).mockReturnValue({isDarkMode: true});
+
     (useAppSelector as jest.Mock).mockReturnValue({
       name: 'Luke skywalker',
       isLoading: false,
@@ -35,6 +39,7 @@ describe('App', () => {
   });
   it('renders render a error page', () => {
     (useAppDispatch as jest.Mock).mockReturnValue(() => {});
+    (useThemeHelper as jest.Mock).mockReturnValue({isDarkMode: false});
     (useAppSelector as jest.Mock).mockReturnValue({
       name: '',
       isLoading: false,

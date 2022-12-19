@@ -1,8 +1,31 @@
+## Code Quality
+
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/83dc76192a93416a9958d995f45c5887)](https://www.codacy.com/gh/AlexcastroDev/react-native-workspace-typescript-redux/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AlexcastroDev/react-native-workspace-typescript-redux&amp;utm_campaign=Badge_Grade)
 
-<img src='https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/actions/workflows/testing.yml/badge.svg' />
+## Code Runners
 
-<img src='https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/actions/workflows/linter.yml/badge.svg' />
+<div styles='display: flex; column-gap: 8px;'>
+    <img src='https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/actions/workflows/testing.yml/badge.svg' />
+    <img src='https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/actions/workflows/linter.yml/badge.svg' />
+</div>
+
+## App
+
+<div styles='display: flex; column-gap: 8px;'>
+  <img src='./badges/badge-branches.svg' />
+  <img src='./badges/badge-functions.svg' />
+  <img src='./badges/badge-lines.svg' />
+  <img src='./badges/badge-statements.svg' />
+</div>
+
+## Package Core
+
+<div styles='display: flex; column-gap: 8px;'>
+  <img src='./packages/core/badges/badge-branches.svg' />
+  <img src='./packages/core/badges/badge-functions.svg' />
+  <img src='./packages/core/badges/badge-lines.svg' />
+  <img src='./packages/core/badges/badge-statements.svg' />
+</div>
 
 # Modular Core
 

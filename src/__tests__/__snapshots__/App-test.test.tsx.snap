@@ -4,7 +4,7 @@ exports[`App renders correctly 1`] = `
 <RCTSafeAreaView
   style={
     {
-      "backgroundColor": "#F3F3F3",
+      "backgroundColor": "#222",
     }
   }
 >
@@ -12,7 +12,7 @@ exports[`App renders correctly 1`] = `
     contentInsetAdjustmentBehavior="automatic"
     style={
       {
-        "backgroundColor": "#F3F3F3",
+        "backgroundColor": "#222",
       }
     }
   >
@@ -94,7 +94,7 @@ exports[`App renders correctly 1`] = `
       <View
         style={
           {
-            "backgroundColor": "#FFF",
+            "backgroundColor": "#000",
           }
         }
       >
@@ -114,7 +114,7 @@ exports[`App renders correctly 1`] = `
                   "fontWeight": "600",
                 },
                 {
-                  "color": "#000",
+                  "color": "#FFF",
                 },
               ]
             }
@@ -130,7 +130,7 @@ exports[`App renders correctly 1`] = `
                   "marginTop": 8,
                 },
                 {
-                  "color": "#444",
+                  "color": "#DAE1E7",
                 },
               ]
             }
@@ -164,7 +164,7 @@ exports[`App renders correctly 1`] = `
                   "fontWeight": "600",
                 },
                 {
-                  "color": "#000",
+                  "color": "#FFF",
                 },
               ]
             }
@@ -180,7 +180,7 @@ exports[`App renders correctly 1`] = `
                   "marginTop": 8,
                 },
                 {
-                  "color": "#444",
+                  "color": "#DAE1E7",
                 },
               ]
             }
@@ -216,7 +216,7 @@ exports[`App renders correctly 1`] = `
                   "fontWeight": "600",
                 },
                 {
-                  "color": "#000",
+                  "color": "#FFF",
                 },
               ]
             }
@@ -232,7 +232,7 @@ exports[`App renders correctly 1`] = `
                   "marginTop": 8,
                 },
                 {
-                  "color": "#444",
+                  "color": "#DAE1E7",
                 },
               ]
             }
@@ -279,7 +279,7 @@ exports[`App renders correctly 1`] = `
                   "fontWeight": "600",
                 },
                 {
-                  "color": "#000",
+                  "color": "#FFF",
                 },
               ]
             }
@@ -295,7 +295,7 @@ exports[`App renders correctly 1`] = `
                   "marginTop": 8,
                 },
                 {
-                  "color": "#444",
+                  "color": "#DAE1E7",
                 },
               ]
             }

@@ -10,16 +10,6 @@
 
 import React, {type PropsWithChildren} from 'react';
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
-
-import {
   Colors,
   DebugInstructions,
   Header,
@@ -29,13 +19,22 @@ import {
 import {Layout} from './components/Layout';
 import {useAppDispatch, useAppSelector} from '@company/core';
 import getLoggedUser from '@company/core/src/actions/user/getLoggedUser';
+import useThemeHelper from './utils/useThemeHelper';
+import {
+  SafeAreaView,
+  ScrollView,
+  StatusBar,
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
 
 const Section: React.FC<
   PropsWithChildren<{
     title: string;
   }>
 > = ({children, title}) => {
-  const isDarkMode = useColorScheme() === 'dark';
+  const {isDarkMode} = useThemeHelper();
   return (
     <View style={styles.sectionContainer}>
       <Text
@@ -61,7 +60,7 @@ const Section: React.FC<
 };
 
 const App = () => {
-  const isDarkMode = useColorScheme() === 'dark';
+  const {isDarkMode} = useThemeHelper();
   const dispatch = useAppDispatch();
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,

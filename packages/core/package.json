@@ -4,8 +4,8 @@
   "main": "src",
   "license": "MIT",
   "scripts": {
-    "test": "jest --coverage=false",
-    "test:ci": "jest -u",
+    "test": "jest -u && jest-coverage-badges --output './badges'",
+    "test:ci": "jest",
     "test:watch": "jest --watch"
   },
   "devDependencies": {
