@@ -1,5 +1,6 @@
 <div style='display: flex; column-gap: 8px;'>
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f44849241bcc4ddea4fe3f0c73dfb234)](https://app.codacy.com/gh/AlexcastroDev/react-native-workspace-typescript-redux?utm_source=github.com&utm_medium=referral&utm_content=AlexcastroDev/react-native-workspace-typescript-redux&utm_campaign=Badge_Grade_Settings)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/83dc76192a93416a9958d995f45c5887)](https://www.codacy.com/gh/AlexcastroDev/react-native-workspace-typescript-redux/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AlexcastroDev/react-native-workspace-typescript-redux&amp;utm_campaign=Badge_Grade)
 
 <img src='https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/actions/workflows/testing.yml/badge.svg' />
