@@ -1,0 +1,23 @@
+{
+  "name": "@company/core",
+  "version": "0.0.0",
+  "main": "src",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage=false",
+    "test:ci": "jest -u",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@reduxjs/toolkit": "*",
+    "@types/jest": "*",
+    "@types/node": "*",
+    "axios": "*",
+    "axios-mock-adapter": "*",
+    "jest": "*",
+    "react-redux": "*",
+    "ts-jest": "*",
+    "ts-node": "*",
+    "typescript": "*"
+  }
+}

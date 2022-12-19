@@ -1,0 +1,8 @@
+{
+    "user": {
+        "loading": false,
+        "isAuthenticated": false,
+        "error": true,
+        "data": {}
+    }
+}
