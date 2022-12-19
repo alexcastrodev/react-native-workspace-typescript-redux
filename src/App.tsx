@@ -26,8 +26,8 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import { Layout } from './components/Layout';
-import { useAppDispatch, useAppSelector } from '@company/core';
+import {Layout} from './components/Layout';
+import {useAppDispatch, useAppSelector} from '@company/core';
 import getLoggedUser from '@company/core/src/actions/user/getLoggedUser';
 
 const Section: React.FC<
@@ -62,20 +62,21 @@ const Section: React.FC<
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
-  const dispatch = useAppDispatch()
+  const dispatch = useAppDispatch();
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
   React.useEffect(() => {
-    dispatch(getLoggedUser({ bearerToken: '', idToken: ''}))
-  }, [])
+    dispatch(getLoggedUser({bearerToken: '', idToken: ''}));
+  }, []);
 
-  const { name, isLoading, isAuthenticated } = useAppSelector((state) => ({
+  const {name, isLoading, isAuthenticated, isError} = useAppSelector(state => ({
     name: state.user.data.name,
     isLoading: state.user.loading,
     isAuthenticated: state.user.isAuthenticated,
-  }))
+    isError: state.user.error,
+  }));
 
   return (
     <SafeAreaView style={backgroundStyle}>
@@ -87,9 +88,20 @@ const App = () => {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <Header />
-        { !isLoading && isAuthenticated && (
+
+        {isError && (
           <View>
-            <Text testID='block--user-name'>Olá, {name}</Text>
+            <Text testID="block--bar-notification">Error on get user</Text>
+          </View>
+        )}
+
+        {!isLoading && !isError && isAuthenticated ? (
+          <View>
+            <Text testID="block--user-name">Olá, {name}</Text>
+          </View>
+        ) : (
+          <View>
+            <Text testID="block--user-name">Sign in</Text>
           </View>
         )}
         <View
@@ -140,5 +152,5 @@ export default function Application() {
     <Layout>
       <App />
     </Layout>
-  )
-};
+  );
+}
