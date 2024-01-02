@@ -1,0 +1,586 @@
+repo_name: AlexcastroDev/react-native-workspace-typescript-redux
+report_id: 32df4c5ef32c26daf83e0cd29f6076f5
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-02T14:22:55+00:00'
+requested_by: AlexcastroDev
+provider: github
+branch: main
+detected_tools_count: 45
+tools:
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Objective-C
+  description: The primary programming language you use when writing software for
+    OS X and iOS
+  website_url: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  version: 2.7.5
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/Gemfile.lock
+  detection_source: Repo Metadata
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 14:09:18.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source: android/app/build.gradle
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 14:09:18.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 14:09:18.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 0.70.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/ios/Podfile.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: React Native
+  description: A framework for building native apps with React
+  website_url: http://facebook.github.io/
+  version: 0.70.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Mobile Development
+  image_url: https://img.stackshare.io/service/2699/KoK6gHzp.jpg
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/packages/core/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.20.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/packages/core/yarn.lock
+  detection_source: babel.config.js
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 21:47:10.000000000 Z
+- name: CMake
+  description: 'An open-source system that manages the build process '
+  website_url: http://www.cmake.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 14:09:18.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/linter.yml"
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 21:47:10.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source: android/app/build.gradle
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 14:09:18.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/packages/core/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 14:09:18.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: Gemfile
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 14:09:18.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source: packages/core/yarn.lock
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 14:09:18.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 14:09:18.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source: android/app/build.gradle
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 14:09:18.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  version: 1.11.3
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 14:09:18.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/packages/core/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 14:09:18.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.20.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/packages/core/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 14:09:18.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.20.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 14:09:18.000000000 Z
+- name: "@babel/runtime"
+  description: Babel's modular runtime helpers
+  package_url: https://www.npmjs.com/@babel/runtime
+  version: 7.20.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15934/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/packages/core/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 14:09:18.000000000 Z
+- name: "@react-native-community/eslint-config"
+  description: ESLint config for React Native
+  package_url: https://www.npmjs.com/@react-native-community/eslint-config
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18225/default_88b0d2e50daafd07d82e1afc6ee8f1b97181a07d.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 29.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/packages/core/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.11.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/packages/core/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.26
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/packages/core/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: "@types/react-native"
+  description: TypeScript definitions for react-native
+  package_url: https://www.npmjs.com/@types/react-native
+  version: 0.70.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16569/default_682ffbfa52bb1873b212151cffed5d464d6efdfb.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: "@types/react-test-renderer"
+  description: TypeScript definitions for react-test-renderer
+  package_url: https://www.npmjs.com/@types/react-test-renderer
+  version: 18.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16593/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 3.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 3.10.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: axios-mock-adapter
+  description: Axios adapter that allows to easily mock requests
+  package_url: https://www.npmjs.com/axios-mock-adapter
+  version: 1.21.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17391/default_e9c4b89784d4fe5d59f93b4a54dd8910ea23e5de.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/packages/core/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 14:09:18.000000000 Z
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 29.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/packages/core/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: jest-environment-jsdom
+  description: Delightful JavaScript Testing
+  package_url: https://www.npmjs.com/jest-environment-jsdom
+  version: 29.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18413/default_867ef7396016341fd213fa568d6de11cc98fefff.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: metro-react-native-babel-preset
+  description: Babel preset for React Native applications
+  package_url: https://www.npmjs.com/metro-react-native-babel-preset
+  version: 0.72.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16699/default_5ea3918e441555ef1fd413f4100fe15fe23b366f.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: react-native
+  description: A framework for building native apps using React
+  package_url: https://www.npmjs.com/react-native
+  version: 0.70.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16064/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 8.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/packages/core/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: react-test-renderer
+  description: React package for snapshot testing
+  package_url: https://www.npmjs.com/react-test-renderer
+  version: 18.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15929/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 29.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/packages/core/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/packages/core/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 22:29:07.000000000 Z
+- name: cocoapods
+  description: CocoaPods manages library dependencies for your Xcode project
+  package_url: https://rubygems.org/cocoapods
+  version: 1.11.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19189/default_2266a6c0e2693d55b1999a7c5db4be13e5720232.png
+  detection_source_url: https://github.com/AlexcastroDev/react-native-workspace-typescript-redux/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2022-12-19 14:09:18.000000000 Z
