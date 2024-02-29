@@ -2,7 +2,7 @@ repo_name: AlexcastroDev/react-native-workspace-typescript-redux
 report_id: 32df4c5ef32c26daf83e0cd29f6076f5
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:12:23+00:00'
+timestamp: '2024-02-29T19:22:20+00:00'
 requested_by: AlexcastroDev
 provider: github
 branch: main
@@ -159,7 +159,7 @@ tools:
   last_updated_by: Alex Oliveira
   last_updated_on: 2022-12-19 21:47:10.000000000 Z
 - name: CMake
-  description: 'An open-source system that manages the build process '
+  description: An open-source system that manages the build process
   website_url: http://www.cmake.org/
   open_source: false
   hosted_saas: false
